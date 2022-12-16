@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+        }
+
+        header{
+            width: max-content;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: darkgray;
+            padding: 2px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.541);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(51, 17, 77);
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: darkgrey;
+        }
+
+        article > aside {
+            background-color: rgb(185, 185, 185);
+            text-align: end;
+            font-style: italic;
+            font-weight: lighter;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CPX Daily</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte - Culinaria - Televisão</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus libero dicta recusandae quam sit eligendi nam culpa explicabo impedit consequatur vel, quibusdam provident voluptatum ipsam harum! Natus architecto rem eveniet! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ex debitis rerum repellat dolor aut? At officiis quia quasi nostrum rerum eum consectetur fugiat laboriosam, et, ab neque. Explicabo, quia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati delectus deserunt tempora fuga aut quibusdam laudantium culpa dolores corporis. Ab sunt delectus laborum magnam quas optio iusto mollitia dolorum aliquid?</p>
+                <aside>
+                    <p>Artigo escrito por José Maria</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim mesmo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

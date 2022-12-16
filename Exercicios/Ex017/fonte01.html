@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc
+
+            Medidas Relativas
+            em(ao tamanho atual da fonte), ex(a altura x da fonte), rem (relativo ao rut (fonte que está configurada no body)), vw (largura da view port(%da tela)), vh(igual a vw, porem referente a altura)
+
+            RECOMENDAÇÃO W3C: usar apenas a 'em' e 'px', de preferência a 'em'
+            Normalmente, 1em = 16px
+            */
+            font-size: 15px ;
+            font-weight: normal;
+            /* São eles, lighter, normal, bold e bolder
+            */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+           font: italic bold 3em sans-serif;
+            /* shorthand font
+
+            - font-style -> font-weight -> font-size -> font family */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempora, ratione possimus ut quis sequi qui expedita est placeat ea corporis non! Sint, impedit corporis accusantium totam fugit quaerat? Praesentium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam similique officiis, ex nostrum nulla, sequi tempore doloribus quam ab vero amet qui, reiciendis repellat commodi fuga deserunt quod ratione fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur ullam asperiores, sequi error repudiandae nesciunt, optio neque illum minima saepe doloremque. Ipsa minus eaque iusto maiores. Beatae, fugit. Dolores.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsa maxime deleniti reprehenderit voluptas veniam minima aliquid earum natus odit adipisci magnam, delectus fugit tenetur libero accusantium consectetur? Ab, reprehenderit?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim voluptatum, harum atque rem quisquam similique? Temporibus atque praesentium ipsam, tempore similique veritatis recusandae accusantium id totam quis nulla quaerat.</p>
+</body>
+</html>
